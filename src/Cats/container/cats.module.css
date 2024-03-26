@@ -1,0 +1,27 @@
+.catsContainer {
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.imagesContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imageItem {
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+  background-color: gainsboro;
+  border-radius: 4px;
+}
+
+.imageItem img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
